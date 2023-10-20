@@ -16,7 +16,7 @@ class HomeController extends Controller
     {
 
         Mail::to('mannaisana941@gmail.com')->send(new ContactMail($request));
-        return ('contact');
+       return redirect()->back();
     }
 }
 

@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileNavHide = document.querySelector('.mobile-nav-hide');
 
   document.querySelectorAll('.mobile-nav-toggle').forEach(el => {
-    el.addEventListener('click', function(event) {
+    el.addEventListener('click', function (event) {
       event.preventDefault();
       mobileNavToogle();
     })
@@ -223,6 +223,8 @@ var swiper = new Swiper(".sliderFeaturedPosts", {
     prevEl: ".custom-swiper-button-prev",
   },
 });
+
+
 
 
 

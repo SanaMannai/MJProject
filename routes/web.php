@@ -43,13 +43,13 @@ Route::get('/admin/dashboard', function () {
 
 require __DIR__.'/adminauth.php';
 
-Route::resource("/admin/equipe", EquipeController::class);
+Route::resource("/admin/equipe", EquipeController::class)->middleware(['auth:admin', 'verified']);
 
-Route::resource("/admin/club", ClubController::class);
+Route::resource("/admin/club", ClubController::class)->middleware(['auth:admin', 'verified']);
 
-Route::resource("/inscription", InscriptionController::class);
+Route::resource("/inscription", InscriptionController::class)->middleware(['auth', 'verified']);
 
-Route::resource("/animation", AnimationController::class);
+Route::resource("/animation", AnimationController::class)->middleware(['auth', 'verified']);
 
 Route::post('contact_mail',[HomeController::class, 'contact_mail_send']);
 

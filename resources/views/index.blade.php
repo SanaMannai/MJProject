@@ -399,6 +399,61 @@
 
     </section><!-- End Team Section --> 
 
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Events</h2>
+          <p>Share <span>Your Moments</span> In Our Restaurant</p>
+        </div>
+
+        <div class="slides-3 swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper" id="swiper-wrapper-de781da4d33331018" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-4020px, 0px, 0px);"><div class="swiper-slide event-item d-flex flex-column justify-content-end swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" style="background-image: url(&quot;assets/img/events-3.jpg&quot;); width: 965px; margin-right: 40px;" role="group" aria-label="3 / 3" data-swiper-slide-index="2">
+              <h3>Birthday Parties</h3>
+              <div class="price align-self-start">$499</div>
+              <p class="description">
+                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+              </p>
+            </div>
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end swiper-slide-duplicate-active" style="background-image: url(&quot;assets/img/events-1.jpg&quot;); width: 965px; margin-right: 40px;" role="group" aria-label="1 / 3" data-swiper-slide-index="0">
+              <h3>Custom Parties</h3>
+              <div class="price align-self-start">$99</div>
+              <p class="description">
+                Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(&quot;assets/img/events-2.jpg&quot;); width: 965px; margin-right: 40px;" role="group" aria-label="2 / 3" data-swiper-slide-index="1">
+              <h3>Private Parties</h3>
+              <div class="price align-self-start">$289</div>
+              <p class="description">
+                In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end swiper-slide-prev swiper-slide-duplicate-next" style="background-image: url(&quot;assets/img/events-3.jpg&quot;); width: 965px; margin-right: 40px;" role="group" aria-label="3 / 3" data-swiper-slide-index="2">
+              <h3>Birthday Parties</h3>
+              <div class="price align-self-start">$499</div>
+              <p class="description">
+                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+              </p>
+            </div><!-- End Event item -->
+
+          <div class="swiper-slide event-item d-flex flex-column justify-content-end swiper-slide-duplicate swiper-slide-active" style="background-image: url(&quot;assets/img/events-1.jpg&quot;); width: 965px; margin-right: 40px;" role="group" aria-label="1 / 3" data-swiper-slide-index="0">
+              <h3>Custom Parties</h3>
+              <div class="price align-self-start">$99</div>
+              <p class="description">
+                Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.
+              </p>
+            </div></div>
+          <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+      </div>
+    </section><!-- End Events Section -->
+
     <!-- ======= Our Projects Section ======= -->
     <section id="projects" class="projects">
       <div class="container">
@@ -804,9 +859,10 @@
 
     <h2>My Google Maps </h2>
     <div class="map">
-      <iframe style="border:0; width: 110%; height: 500
-      px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-    </div>
+      <div class="mb-3">
+          <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
 
     {{-- <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
       <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
@@ -878,7 +934,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="{{url('contact_mail')}}" method="post" class="php-mail-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <form action="{{url('contact_mail')}}" method="post" class="php-mail-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" name="formValidation" id="formValidation">
               {{csrf_field()}}
               <div class="row gy-4">
 
@@ -1003,6 +1059,46 @@
 
  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js'></script>
 <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+
+ 
+
+{{-- Validation contact --}}
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+   
+   <script>
+
+       $("#formValidation").validate({
+  rules: {
+      Nom: {
+          minlength: 2
+      },
+      Email:{
+          email:true
+      }
+
+  },
+  Messages: {
+      Nom:{
+          required: "Please enter your name",
+          minlength: "Name at least 2 characters"
+      },
+      Email: "Please enter your email",
+      Sujets: "S'il vous plait entrez votre sujet"
+      Message: "Please enter your Message"
+
+
+  },
+
+
+
+  submitHandler: function (form) {
+      form.submit();
+
+  }
+});
+   </script>
 
 </body>
 </html>
